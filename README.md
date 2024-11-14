@@ -249,11 +249,13 @@ Program dijalankan dengan memanggil fungsi 'main()' jika file ini dijalankan seb
 
 # Berikut foto code program python:
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/code1.png?raw=true)
+
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/code2.png?raw=true)
 
 # berikut hasil code program yang sudah di jalankan:
 
-!{foto}()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/hasil...png?raw=true)
 
 
 
