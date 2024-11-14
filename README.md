@@ -102,7 +102,11 @@ Jika input tidak valid, program kembali meminta pengguna untuk memasukkan data y
 
 8. Selesai: Program selesai dan berakhir di sini.
 
+# berikut Gambar flowchart nya:
 
+![foto]()
+
+#
 
 
 
