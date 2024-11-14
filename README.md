@@ -108,7 +108,152 @@ Jika input tidak valid, program kembali meminta pengguna untuk memasukkan data y
 
 ![foto](https://github.com/ridhofebriann/labpy04/blob/main/flowchart..png?raw=true)
 
-#
+# penjelasan code program:
+
+1. Definisi Fungsi
+
+Program ini dimulai dengan mendefinisikan beberapa fungsi yang bertugas untuk memproses data dan menampilkan informasi.
+
+a. 'hitung_nilai_akhir(tugas, uts, uas)'
+
+  Tujuan: Menghitung nilai akhir mahasiswa berdasarkan bobot yang telah ditentukan untuk 
+  setiap komponen nilai.
+
+Parameter:
+
+'tugas': Nilai tugas mahasiswa.
+
+'uts': Nilai Ujian Tengah Semester (UTS).
+
+'uas': Nilai Ujian Akhir Semester (UAS).
+
+Proses:
+
+Menggunakan rumus: [ \text{Nilai Akhir} = (tugas \times 0.3) + (uts \times 0.35) + (uas \times 0.35) ]
+
+Output: Mengembalikan nilai akhir yang dihitung.
+
+b. tampilkan_header()
+
+Tujuan: Menampilkan header tabel yang berisi informasi kolom.
+
+Proses:
+
+Mencetak garis pembatas untuk tabel.
+
+Menampilkan judul tabel "DAFTAR NILAI MAHASISWA".
+
+Menampilkan nama kolom seperti "NO", "NAMA", "NIM", "TUGAS", "UTS", "UAS", dan "NILAI AKHIR".
+
+Output: Tidak mengembalikan nilai, hanya mencetak ke layar.
+
+c. 'tampilkan_data_mahasiswa(data_mahasiswa)'
+
+Tujuan: Menampilkan data mahasiswa dalam format tabel.
+
+Parameter:
+
+'data_mahasiswa': List yang berisi dictionary untuk setiap mahasiswa.
+
+Proses:
+
+Menggunakan 'enumerate' untuk mendapatkan indeks dan data mahasiswa.
+
+Mencetak setiap data mahasiswa dalam format yang terstruktur, dengan dua desimal untuk nilai.
+
+Output: Tidak mengembalikan nilai, hanya mencetak ke layar.
+
+2. Fungsi 'main()'
+
+Fungsi ini adalah inti dari program, di mana alur utama program dijalankan.
+
+a. Inisialisasi
+
+List Kosong: Mendeklarasikan data_mahasiswa sebagai list kosong untuk menyimpan 'data 
+mahasiswa'.
+
+b. Loop Input Data
+
+Loop Tak Terbatas: Program menggunakan loop 'while True' untuk terus meminta input data hingga pengguna memilih untuk berhenti.
+
+Input Nama dan NIM:
+
+Meminta pengguna untuk memasukkan nama mahasiswa.
+
+Memeriksa apakah nama yang dimasukkan kosong. Jika kosong, program mencetak pesan kesalahan dan melanjutkan ke iterasi berikutnya.
+
+Meminta pengguna untuk memasukkan NIM mahasiswa.
+
+Memeriksa apakah NIM yang dimasukkan kosong. Jika kosong, program mencetak pesan kesalahan dan melanjutkan ke iterasi berikutnya.
+
+c. Input Nilai
+
+Input Nilai Tugas, UTS, dan UAS:
+
+Meminta pengguna untuk memasukkan nilai tugas, UTS, dan UAS.
+
+Menggunakan 'try-except' untuk menangkap kesalahan konversi nilai ke float.
+
+Memeriksa apakah nilai berada dalam rentang 0-100. Jika tidak, program mencetak pesan kesalahan dan melanjutkan ke iterasi berikutnya.
+
+d. Menghitung Nilai Akhir
+
+Setelah semua input valid, program memanggil fungsi 'hitung_nilai_akhir()' dengan nilai tugas, UTS, dan UAS sebagai argumen.
+
+Nilai akhir yang dihitung disimpan dalam variabel 'nilai_akhir'.
+
+e. Menyimpan Data Mahasiswa
+
+Data mahasiswa disimpan dalam dictionary dengan kunci:
+
+'Nama': nama mahasiswa.
+
+'NIM': NIM mahasiswa.
+
+'Tugas': nilai tugas.
+
+'UTS': nilai UTS.
+
+'UAS': nilai UAS.
+
+'Nilai Akhir': nilai akhir yang dihitung.
+
+Dictionary tersebut ditambahkan ke list 'data_mahasiswa'.
+
+f. Konfirmasi Tambah Data
+
+
+Setelah menyimpan data, program menanyakan kepada pengguna apakah ingin menambah data lagi.
+
+Jika pengguna menjawab 'y', loop akan dimulai lagi; jika tidak, loop akan berhenti.
+
+3. Menampilkan Data Mahasiswa
+
+Setelah keluar dari loop, program memeriksa apakah ada data mahasiswa yang dimasukkan.
+
+Jika 'data_mahasiswa' tidak kosong:
+
+Memanggil 'tampilkan_header()' untuk mencetak header tabel.
+
+Memanggil 'tampilkan_data_mahasiswa(data _mahasiswa)' untuk mencetak semua data mahasiswa dalam 
+
+format tabel.
+
+Jika 'data_mahasiswa' kosong, program mencetak pesan bahwa tidak ada data mahasiswa yang 
+
+dimasukkan.
+
+4. Menjalankan Program
+
+Program dijalankan dengan memanggil fungsi 'main()' jika file ini dijalankan sebagai program utama. Ini memastikan bahwa semua fungsi dan logika yang telah didefinisikan akan dieksekusi.
+
+# Berikut foto code program python:
+
+![foto]()
+
+# berikut hasil code program yang sudah di jalankan:
+
+!{foto}()
 
 
 
