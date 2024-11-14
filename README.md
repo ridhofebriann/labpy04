@@ -13,7 +13,7 @@ Mata kuliah : Bahasa Pemrograman <p>
 
 Penjelasan: Ini adalah titik awal dari alur program. Program dimulai di sini.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw1.png?raw=true)
 
 2. Input Data
 
@@ -29,7 +29,7 @@ Nilai UTS: Nilai Ujian Tengah Semester dalam rentang 0-100
 
 Nilai UAS: Nilai Ujian Akhir Semester dalam rentang 0-100
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw2.png?raw=true)
 
 3. Validasi Input
 
@@ -39,7 +39,7 @@ Memastikan bahwa NIM dan Nama tidak kosong.
 
 Memastikan bahwa nilai Tugas, UTS, dan UAS berada dalam rentang 0-100.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw3.png?raw=true)
 
 Output:
 
@@ -53,23 +53,23 @@ Penjelasan: Program menghitung nilai akhir mahasiswa menggunakan rumus:
 
 Nilai Akhir = (Tugas * 0.3) + (UTS * 0.35) + (UAS * 0.35)
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw4.png?raw=true)
 
 5. Simpan Data
 
 Penjelasan: Program menyimpan data mahasiswa yang telah dihitung nilai akhirnya ke dalam list atau database.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw5.png?raw=true)
 
 6. Tanya Tambah Data
 
 Penjelasan: Program menanyakan kepada pengguna apakah ingin menambah data mahasiswa lagi (y/t):
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw6.png?raw=true)
 
 Jika pengguna menjawab 'y' (ya), program kembali ke langkah Input Data.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw7.png?raw=true)
 
 Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Data.
 
@@ -77,12 +77,12 @@ Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Dat
 
 Penjelasan: Jika ada data yang telah disimpan, program menampilkan data mahasiswa tersebut dalam format tabel atau daftar yang rapi.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw8.png?raw=true)
 
 8. Selesai
 Penjelasan: Ini adalah titik akhir dari alur program. Program berakhir di sini.
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw9.png?raw=true)
 
 # penjelasan langkah demi langkah:
 
@@ -106,7 +106,7 @@ Jika input tidak valid, program kembali meminta pengguna untuk memasukkan data y
 
 # berikut Gambar flowchart nya:
 
-![foto]()
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/flowchart..png?raw=true)
 
 #
 
