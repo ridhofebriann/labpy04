@@ -7,10 +7,12 @@ Nim         : 312410500 <p>
 
 Mata kuliah : Bahasa Pemrograman <p>
 
-# penjelasan flowchart
+# penjelasan flowchart Praktikum 4 
+
 1. Mulai
 
 Penjelasan: Ini adalah titik awal dari alur program. Program dimulai di sini.
+
 ![foto]()
 
 2. Input Data
@@ -26,6 +28,7 @@ Nilai Tugas: Nilai tugas dalam rentang 0-100
 Nilai UTS: Nilai Ujian Tengah Semester dalam rentang 0-100
 
 Nilai UAS: Nilai Ujian Akhir Semester dalam rentang 0-100
+
 ![foto]()
 
 3. Validasi Input
@@ -35,7 +38,9 @@ Penjelasan: Program memvalidasi input dengan langkah-langkah berikut:
 Memastikan bahwa NIM dan Nama tidak kosong.
 
 Memastikan bahwa nilai Tugas, UTS, dan UAS berada dalam rentang 0-100.
+
 ![foto]()
+
 Output:
 
 Jika input valid, alur dilanjutkan ke langkah berikutnya.
@@ -47,11 +52,13 @@ Jika input tidak valid, program kembali ke langkah Input Data.
 Penjelasan: Program menghitung nilai akhir mahasiswa menggunakan rumus:
 
 Nilai Akhir = (Tugas * 0.3) + (UTS * 0.35) + (UAS * 0.35)
+
 ![foto]()
 
 5. Simpan Data
 
 Penjelasan: Program menyimpan data mahasiswa yang telah dihitung nilai akhirnya ke dalam list atau database.
+
 ![foto]()
 
 6. Tanya Tambah Data
@@ -61,16 +68,19 @@ Penjelasan: Program menanyakan kepada pengguna apakah ingin menambah data mahasi
 Jika pengguna menjawab 'y' (ya), program kembali ke langkah Input Data.
 
 Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Data.
+
 ![foto]()
 
 7. Tampilkan Data
 
 Penjelasan: Jika ada data yang telah disimpan, program menampilkan data mahasiswa tersebut dalam format tabel atau daftar yang rapi.
+
 ![foto]()
 
 8. Selesai
 Penjelasan: Ini adalah titik akhir dari alur program. Program berakhir di sini.
-![foto}()
+
+![foto]()
 
 # penjelasan langkah demi langkah:
 
