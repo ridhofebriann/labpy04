@@ -65,11 +65,13 @@ Penjelasan: Program menyimpan data mahasiswa yang telah dihitung nilai akhirnya 
 
 Penjelasan: Program menanyakan kepada pengguna apakah ingin menambah data mahasiswa lagi (y/t):
 
+![foto]()
+
 Jika pengguna menjawab 'y' (ya), program kembali ke langkah Input Data.
 
-Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Data.
-
 ![foto]()
+
+Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Data.
 
 7. Tampilkan Data
 
