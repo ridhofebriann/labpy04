@@ -1,1 +1,84 @@
+def hitung_nilai_akhir(tugas, uts, uas):
+    """Menghitung nilai akhir berdasarkan bobot yang ditentukan."""
+    return (tugas * 0.3) + (uts * 0.35) + (uas * 0.35)
 
+def tampilkan_header():
+    """Menampilkan header tabel dengan format yang lebih menarik"""
+    print("\n" + "=" * 93)
+    print(f"|{'| DAFTAR NILAI MAHASISWA |':^91}|")
+    print("=" * 93)
+    print(f"| {'NO':<4} | {'NAMA':<12} | {'NIM':<20} | {'TUGAS':<8} | {'UTS':<8} | {'UAS':<8} | {'NILAI AKHIR':<10} |")
+    print("=" * 93)
+
+def tampilkan_data_mahasiswa(data_mahasiswa):
+    """Menampilkan data mahasiswa dalam format tabel"""
+    for index, mahasiswa in enumerate(data_mahasiswa, start=1):
+        print(f"| {index:<4} | {mahasiswa['Nama']:<12} | {mahasiswa['NIM']:<20} | "
+              f"{mahasiswa['Tugas']:<8.2f} | {mahasiswa['UTS']:<8.2f} | {mahasiswa['UAS']:<8.2f} | "
+              f"{mahasiswa['Nilai Akhir']:<10.2f}  |")
+    print("=" * 93)
+
+def main():
+    # List untuk menyimpan data mahasiswa
+    data_mahasiswa = []
+
+    # Loop untuk terus meminta input data mahasiswa
+    while True:
+        try:
+            # Meminta input data mahasiswa dengan validasi
+            nama = input("Masukkan Nama: ").strip()
+            if not nama:
+                print("Nama tidak boleh kosong!")
+                continue
+
+            nim = input("Masukkan NIM: ").strip()
+            if not nim:
+                print("NIM tidak boleh kosong!")
+                continue
+
+            # Input nilai dengan validasi
+            try:
+                tugas = float(input("Masukkan Nilai Tugas (0-100): "))
+                uts = float(input("Masukkan Nilai UTS (0-100): "))
+                uas = float(input("Masukkan Nilai UAS (0-100): "))
+
+               
+                if not (0 <= tugas <= 100 and 0 <= uts <= 100 and 0 <= uas <= 100):
+                    print("Nilai harus dalam rentang 0-100!")
+                    continue
+
+            except ValueError:
+                print("Masukkan nilai numerik yang valid!")
+                continue
+
+            # Menghitung nilai akhir
+            nilai_akhir = hitung_nilai_akhir(tugas, uts, uas)
+
+            # Menyimpan data mahasiswa
+            data_mahasiswa.append({
+                'Nama': nama,
+                'NIM': nim,
+                'Tugas': tugas,
+                'UTS': uts,
+                'UAS': uas,
+                'Nilai Akhir': nilai_akhir
+            })
+
+        except Exception as e:
+            print(f"Terjadi kesalahan: {e}")
+
+        # Konfirmasi tambah data
+        tambah_data = input("Apakah Anda ingin menambah data? (y/t): ").lower()
+        if tambah_data != 'y':
+            break
+
+    # Menampilkan data mahasiswa
+    if data_mahasiswa:
+        tampilkan_header()
+        tampilkan_data_mahasiswa(data_mahasiswa)
+    else:
+        print("Tidak ada data mahasiswa yang dimasukkan.")
+
+# Menjalankan fungsi utama
+if __name__ == "__main__":
+    main()
