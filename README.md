@@ -69,7 +69,7 @@ Penjelasan: Program menanyakan kepada pengguna apakah ingin menambah data mahasi
 
 Jika pengguna menjawab 'y' (ya), program kembali ke langkah Input Data.
 
-![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw7.png?raw=true)
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/fw7...png?raw=true)
 
 Jika pengguna menjawab 't' (tidak), program melanjutkan ke langkah Tampilkan Data.
 
@@ -106,7 +106,7 @@ Jika input tidak valid, program kembali meminta pengguna untuk memasukkan data y
 
 # berikut Gambar flowchart nya:
 
-![foto](https://github.com/ridhofebriann/labpy04/blob/main/flowchart..png?raw=true)
+![foto](https://github.com/ridhofebriann/labpy04/blob/main/flowchart....png?raw=true)
 
 # penjelasan code program:
 
